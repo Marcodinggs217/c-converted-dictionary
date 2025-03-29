@@ -1,0 +1,78 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+	  string a;
+	  
+	  cout << "Enter your word: ";
+	  cin >> a;
+	  
+	  if (a == "ARGENTINA"){
+	  	 cout << "A large South American country.";
+	  }else if(a == "AUSTRALIA"){
+	  	   cout<< "A large country in the Southern Hemisphere.";
+	  }else if(a == "BRAZIL"){
+	  	   cout << "The largest country in South America.";
+	  }else if(a == "BELGIUM"){
+	  	   cout << "A small, densely populated country in northwest Europe.";
+	  }else if(a == "CANADA"){
+	  	   cout << "The world's second largest country.";
+	  }else if(a == "CHINA"){
+	  	   cout << "A vast East Asian country.";
+	  }else if(a == "DENMARK"){
+	  	   cout << "A Northern European country.";
+	  }else if(a == "DOMINICAN REPUBLIC"){
+	  	   cout << "A Caribbean nation situated on the eastern.";
+	  }else if(a == "EGPYT"){
+	  	   cout << "A developing country in North Africa.";
+	  }else if(a == "ESTONIA"){
+	  	   cout << "A country in northeastern Europe.";
+	  }else if(a == "FINLAND"){
+	  	   cout << "Nordic European country situated in the northeast of the continent.";
+	  }else if(a == "GERMANY"){
+	  	   cout << "A central European country, and former nazi germany from year 1933 to 1945.";
+	  }else if(a == "HUNGARY"){
+	         cout << "A landlocked country in central Europe.";
+	  }else if(a == "INDIA"){
+	  	   cout << "A diverse country located in South Asia.";
+	  }else if(a == "JAPAN"){
+	  	   cout << "An East Asian island nation.";
+	  }else if(a == "KENYA"){
+	  	   cout << "A country located on the East African coast.";
+	  }else if(a == "LEBANON"){
+	  	   cout << "A small country on the eastern Mediterranean coast.";
+	  }else if(a == "MEXICO"){
+	  	   cout << "A North American country.";
+	  }else if(a == "NETHERLANDS"){
+	  	   cout << "Often called Holland, this country located in Western Europe.";
+	  }else if(a == "OMAN"){
+	  	   cout << "A country in southwestern Asia on the Arabian Peninsula.";
+	  }else if(a == "PHILLIPINES"){
+	  	   cout << "An island nation in Southeast Asia.";
+	  }else if(a == "PERU"){
+	  	   cout << "South American country.";
+	  }else if(a == "QATAR"){
+	  	   cout << "A small country in the Middle East on the Arabian Peninsula.";
+	  }else if(a == "RUSSIA"){
+	  	   cout << "The world's largest country by landmass.";
+	  }else if(a == "SPAIN"){
+	  	   cout << "A country located in southwestern Europe.";
+	  }else if(a == "THAILAND"){
+	  	   cout << "Southeast Asian country.";
+	  }else if(a == "UNITED KINGDOM"){
+	  	   cout << "An island nation located northwest of mainland Europe.";
+	  }else if(a == "VIETNAM"){
+	  	   cout << "Southeast Asian country known for its stunning natural beauty.";
+	  }else if(a == "YEMEN"){
+	         cout << "A country situated on the southwestern tip of the Arabian Peninsula.";
+	  }else if(a == "ZAMBIA"){
+	  	   cout << "A landlocked country in southern Africa, known for its vast wildlife.";
+	  	
+	  }else{
+	    	cout << "Invalid word!!";
+	  }
+	  
+	  return 0;
+}
